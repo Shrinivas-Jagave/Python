@@ -13,15 +13,15 @@ def main():
 
     check_uncheck_var = StringVar()
 
-    checkBox = ttk.Checkbutton(root_window)
-    checkBox.configure(
+    checkbox = ttk.Checkbutton(root_window)
+    checkbox.configure(
         text="CheckBox",
         variable=check_uncheck_var,
         onvalue="Check",
-        offvalue="uncheck",
+        offvalue="Uncheck",
         command=checkvalue
     )
-    checkBox.grid(row=0, column=0, sticky=(E, W))
+    checkbox.grid(row=0, column=0, sticky=(E, W))
 
     root_window.mainloop()
 
