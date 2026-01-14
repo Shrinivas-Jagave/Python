@@ -1,0 +1,205 @@
+🟢 BASIC / EASY (1–30)
+
+Find the maximum element in a list -------------------------------> done
+
+Find the minimum element in a list -------------------------------> done
+
+Find the sum of all elements in a list -------------------------------> done
+  
+Count even and odd numbers in a list -------------------------------> done
+
+Reverse a list -------------------------------> done
+
+Remove duplicates from a list -------------------------------> done
+
+Find the second largest element in a list -------------------------------> done
+
+Check if a number is prime in a list or tuple 
+
+Find factorial of a number
+
+Generate Fibonacci series
+
+Check if a string is palindrome
+
+Count vowels and consonants in a string
+
+Find the largest of three numbers
+
+Swap two numbers without using a third variable
+
+Check if two strings are anagrams
+
+Find frequency of each element in a list
+
+Reverse a string without using built-in functions
+
+Find the length of a string without len()
+
+Find missing number in an array
+
+Find common elements in two lists
+
+Check if list is sorted
+
+Find index of an element (linear search)
+
+Count digits in a number
+
+Sum of digits of a number
+
+Convert decimal to binary
+
+Check Armstrong number
+
+Rotate list by k positions
+
+Find duplicate elements in a list
+
+Find union of two lists
+
+Find intersection of two lists
+
+🟡 MEDIUM (31–70)
+
+Implement binary search
+
+Implement bubble sort
+
+Implement selection sort
+
+Implement insertion sort
+
+Find pair with given sum
+
+Move all zeros to end of list
+
+Find first non-repeating character in string
+
+Find longest word in a string
+
+Check balanced parentheses
+
+Reverse words in a sentence
+
+Find majority element in a list
+
+Find leaders in an array
+
+Kadane’s Algorithm (max subarray sum)
+
+Check if number is power of two
+
+Merge two sorted arrays
+
+Find subarray with given sum
+
+Count number of inversions
+
+Implement stack using list
+
+Implement queue using list
+
+Implement stack using queue
+
+Implement queue using stack
+
+Find next greater element
+
+Find longest common prefix
+
+Find longest substring without repeating characters
+
+Check if string rotation of another
+
+Find all permutations of a string
+
+Find all subsets of a list
+
+Implement recursion to reverse a list
+
+Implement recursion for factorial
+
+Detect cycle in linked list
+
+Reverse a linked list
+
+Find middle of linked list
+
+Remove loop from linked list
+
+Find nth node from end
+
+Check if linked list is palindrome
+
+Implement deque
+
+Find k largest elements
+
+Find k smallest elements
+
+Sort list of 0s, 1s, and 2s
+
+Stock buy and sell problem
+
+🔴 HARD / ADVANCED (71–100)
+
+Implement merge sort
+
+Implement quick sort
+
+Find longest increasing subsequence
+
+Find longest common subsequence
+
+Matrix rotation (90 degrees)
+
+Search element in rotated sorted array
+
+Find median of two sorted arrays
+
+Implement heap (min & max heap)
+
+Find kth largest element using heap
+
+Trapping rain water problem
+
+Container with most water
+
+Word break problem
+
+Coin change problem
+
+Knapsack problem
+
+Edit distance between two strings
+
+Lowest common ancestor in binary tree
+
+Check if binary tree is BST
+
+Diameter of binary tree
+
+Level order traversal of binary tree
+
+Serialize and deserialize binary tree
+
+Implement graph using adjacency list
+
+DFS traversal of graph
+
+BFS traversal of graph
+
+Detect cycle in graph
+
+Dijkstra’s shortest path algorithm
+
+Topological sort
+
+Number of islands problem
+
+Flood fill algorithm
+
+N-Queens problem
+
+Sudoku solver
