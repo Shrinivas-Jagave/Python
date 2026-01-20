@@ -4,7 +4,7 @@ Question : Reverse a list.
 
 '''
 
-def ReverseList(L:list)->int:
+def ReverseList(L:list)->list:
     if not isinstance(L, list):
         raise TypeError("Invalid Type")
     
