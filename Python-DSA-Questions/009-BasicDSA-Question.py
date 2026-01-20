@@ -1,6 +1,6 @@
 '''
 Author : Shrinivas Umakant Jagave
-Question : Check if a string is palindrome.
+Question : Count vowels and consonants in a string.
 
 '''
 
