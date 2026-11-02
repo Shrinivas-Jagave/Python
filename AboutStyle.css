@@ -1,0 +1,398 @@
+html
+{
+    scroll-behavior: smooth;
+    
+}
+
+body 
+{
+    font-family: "Poppins", sans-serif;
+}
+
+@font-face 
+{
+  font-family: "Font Awesome 6 Free";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("/fonts/fa-solid-900.woff2") format("woff2");
+}
+
+@font-face 
+{
+  font-family: "Font Awesome 6 Brands";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/fa-brands-400.woff2") format("woff2");
+}
+
+
+/*---------------------------Main Section-------------------------------*/
+.div-img 
+{
+    overflow: hidden;
+}
+
+.div-img img 
+{
+    transition: transform 0.1s ease-in-out;
+}
+
+section
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.divborder
+{
+  background-color: #e4bdbd;
+}
+
+
+.animate-title
+{
+    opacity:0;
+    transform:translateY(30px);
+    transition:all 0.8s ease;
+}
+
+.animate-title.show
+{
+    opacity:1;
+    transform:translateY(0);
+}
+
+.animate-text
+{
+    opacity:0;
+    transform:translateY(15px);
+    transition:all 1s ease;
+}
+
+.animate-text.show
+{
+    opacity:1;
+    transform:translateY(0);
+}
+
+.animate-title:hover 
+{
+    letter-spacing: 1px;
+    transition: letter-spacing 0.1s ease;
+}
+
+/*-----------------reviews------------------------*/
+
+.grow-text
+ {
+    display: inline-block;
+    animation: growPulse 2.5s ease-in-out infinite;
+}
+
+@keyframes growPulse 
+{
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.08);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+.jump-emoji 
+{
+    display: inline-block;
+    margin-left: 6px;
+    animation: jump 1.2s ease-in-out infinite;
+}
+
+@keyframes jump 
+{
+    0%   { transform: translateY(0); }
+    30%  { transform: translateY(-8px); }
+    50%  { transform: translateY(0); }
+    100% { transform: translateY(0); }
+}
+
+
+.reviewsDiv 
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 0 20px 40px;
+    background: #f8ddb9;
+}
+
+.reviews 
+{
+    margin-top: 50px;
+    background: #f8cccc;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+.reviews:hover 
+{
+    
+    box-shadow: 0 12px 28px rgba(0,0,0,0.12);
+    transform: scale(1.08);
+}
+
+.reviews p 
+{
+    font-size: 15px;
+    line-height: 1.7;
+    color: #444;
+}
+
+.review-name 
+{
+    margin-top: 15px;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
+    color: #5C4033;
+}
+
+.CustomerReviewTitle 
+{
+    font-weight: 700;
+    color: #3A3A3A;
+}
+
+.CustomMargin
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/* ---------------------Navbar--------------------- */
+.navbar
+{
+    background-color: #fffDD0;
+    color: black;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+    border: 2px none black;
+}
+
+.navbarTags:hover 
+{
+    transform: translateY(-4px);
+    color: red !important;
+}
+
+
+/* ---------------------Menu Slider--------------------- */
+.offcanvas.custom-offcanvas
+{
+    width: 500px !important;
+    background-color: rgb(252, 233, 233);
+    font: Times;
+    font-size: 15px;
+}
+
+
+/* ---------------------Fixes Whatsapp img --------------------- */
+.whatsapp-img
+{
+    position: fixed;
+    right: 20px;
+    bottom: 80px;
+    width: 35px;
+    height: 35px;
+    border: 0px solid black;
+    border-radius: 50%;
+}
+
+.whatsapp-img:hover
+{
+    transform: scale(1.04);
+    box-shadow: 0 0 15px #4d4d4d;
+}
+
+/* ---------------------Go Top Button--------------------- */
+.go-top
+{
+    font-size: 15px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #ff6767;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .4s;
+    color: #ece6e6;
+
+}
+.go-top.active
+{
+    bottom: 20px;
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.go-top:hover
+{
+    transform: scale(1.04);
+    box-shadow: 0 0 15px #4d4d4d;
+}
+
+/*----------------------Contact Us section----------------------*/
+.ContactDiv
+{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #333;
+    box-shadow: 0 0 15px #f58c02;
+}
+
+.map-responsive iframe
+{
+    margin-right: 50px !important;
+    width: 400px;
+    height: 300px;
+}
+
+.contact-card
+{
+    color: #fffDD0;
+}
+
+.Properties
+{
+    text-decoration: none;
+    color: #fffDD0;
+}
+
+#Heading
+{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: "Georgia", serif;
+}
+
+/* ---------------------Footer--------------------- */
+.footer 
+{
+    background-color: #3A3A3A;
+    color: rgb(255, 255, 255);
+    padding: 20px 20px 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.footer-top 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.footer-logo 
+{
+    width: 200px;
+}
+
+.social-icons 
+{
+    display: flex;
+    gap: 15px;
+    font-size: 18px;
+}
+
+.social-icons i 
+{
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons i:hover 
+{
+    color: #ff4d4d;
+    transform: scale(1.2);
+}
+
+
+.footer-line 
+{
+    margin: 25px auto 15px;
+    width: 90%;
+    border: none;
+    border-top: 1px solid #555;
+}
+
+.footer-Text 
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+
+/* ---------------------Media Query--------------------- */
+@media (max-width: 480px) 
+{   
+    .navbar
+    {
+        background-color: #ece6e6;
+    }
+
+    section
+    {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .desktop-view
+    {
+        display: none;
+    }
+
+    .offcanvas.custom-offcanvas
+    {
+        width: 300px !important;
+    }
+
+    .ContactDiv 
+    {
+        flex-direction: column;    
+        text-align: start;
+        padding: 15px;
+    }
+
+    .contact-card 
+    {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .map-responsive iframe 
+    {
+        width: 100%;                
+        height: 250px;
+        margin-right: 0 !important;
+    }
+
+}
+
